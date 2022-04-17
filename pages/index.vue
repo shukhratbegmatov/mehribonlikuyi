@@ -1,6 +1,6 @@
 <template>
   <div>
-    Mehribonlik uylari
+    <Navbar></Navbar>
   </div>
 </template>
 
