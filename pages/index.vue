@@ -219,10 +219,12 @@
           </div>
           <div class="form_sb">
             <input type="text">
+            <button>Subscribe</button>
           </div>
         </div>
       </div>
     </section>
+    <Footer></Footer>
   </div>
 </template>
 

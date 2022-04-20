@@ -129,10 +129,12 @@ html{
 
 }
 .section_icons{
-  background: #3CCE7F;
   padding: 10px;
   margin-top: 40px;
   border-radius: 5px;
+}
+.section_icons a{
+  text-decoration: none;
 }
 .cards{
   text-align: center;
@@ -391,7 +393,7 @@ html{
 .sb_form_gr{
   background: #3734A9;
   height: 300px;
-  width: 400px;
+  width: 590px;
   border-radius: 10px;
   padding: 20px;
 }
@@ -402,6 +404,7 @@ html{
   font-size: 30px;
   line-height: 40px;
   color: #FFFFFF;
+  margin-top: 60px;
 
 }
 .form_sb input{
@@ -416,4 +419,174 @@ html{
   border-radius: 10px;
   background: #FFFFFF;
   margin-top: 20px;
+  display: flex;
+
+}
+.form_sb button{
+  background: #FF7F5C;
+  border-radius: 0px 10px 10px 0px;
+  border: 0;
+  outline: none;
+  padding: 20px 28px;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #E8F2FF;
+
+}
+footer{
+  background: #1B1C31;
+}
+.footer_title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 73px;
+  text-align: center;
+  color: #31C3CC;
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.footer_content{
+  display: flex;
+  justify-content: center;
+}
+.footer_description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+.homes_title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  color: #000000;
+  margin-top: 100px;
+}
+.button_home{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.button_home button{
+  background: #4F46BA;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 12px 60px;
+  border: 0;
+}
+.single_title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 64px;
+  color: #00C5D1;
+}
+.main_images img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.child_img{
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.working_date_t{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+.working_date_d{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.main_img{
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.main_img img{
+  width: 100%;
+}
+.main_t{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: #31C3CC;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.main_images img{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.management{
+  background: url("../img/pattern.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+}
+.image_management img{
+  width: 100%;
+}
+.management_name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #01011C;
+}
+.management_content{
+  margin-left: 20px;
+}
+.management_work{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1DBB95;
+}
+.management_phone,.management_email{
+  margin-top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #01011C;
 }

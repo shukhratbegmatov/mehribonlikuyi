@@ -7,16 +7,16 @@
       <div class="menu_main">
         <ul class="navs_menu">
           <li>
-            <NuxtLink to="/">Mehribonlik uylari</NuxtLink>
+            <NuxtLink to="/home">Mehribonlik uylari</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/">Galeriya</NuxtLink>
+            <NuxtLink to="/galery">Galeriya</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/">Videolar</NuxtLink>
+            <NuxtLink to="/videos">Videolar</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/">Rahbariyat</NuxtLink>
+            <NuxtLink to="/management">Rahbariyat</NuxtLink>
           </li>
         </ul>
       </div>
