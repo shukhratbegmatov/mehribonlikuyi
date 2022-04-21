@@ -12,14 +12,14 @@
             Har bir bola oilada ulg‘ayish huquqiga ega
           </div>
           <div class="button_image">
-            <button>
+            <NuxtLink to="/galery">
               Rasmlar
 
               <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.5 5H12M12 5L7.5 1M12 5L7.5 9.5" stroke="white" stroke-width="2"/>
               </svg>
 
-            </button>
+            </NuxtLink>
           </div>
           <div class="people_child">
             <img src="../assets/img/People.png" alt="">
